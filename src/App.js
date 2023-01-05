@@ -4,10 +4,10 @@ function App() {
   return (
     <div>
       <div>
-        <div className="flex justify-center relative top-[70px] mx-[30px]">
-          <div className="w-[1400px] flex justify-between items-center">
+        <div className="flex justify-center relative top-[50px] mx-[30px]">
+          <div className="w-[1400px] flex justify-center gap-[50px] items-center">
             <img src="./Assets/logo.png" alt="" />
-            <div className="flex hidden gap-[50px] tablet:text-[18px] mobile:text-[16px] text-[14px] font-semibold ml-[50px]">
+            <div className="laptop:flex desktopS:gap-[50px] laptop:gap-[30px] hidden tablet:text-[18px] mobile:text-[16px] text-[14px] font-semibold ml-auto">
               <div className="">HOME</div>
               <div className="">ABOUT</div>
               <div className="">SERVICES</div>
@@ -265,9 +265,9 @@ function App() {
           </div>
         </div>
         <div className="flex justify-center relative desktopS:top-[290px] laptop:top-[380px] tablet:top-[475px] mobile:top-[580px] top-[690px] mx-[30px]">
-          <div className="w-[1400px] flex justify-between items-center">
+          <div className="w-[1400px] flex justify-center gap-[50px] items-center">
             <img src="./Assets/logo.png" alt="" />
-            <div className="flex hidden gap-[50px] tablet:text-[18px] mobile:text-[16px] text-[14px] font-semibold ml-[50px]">
+            <div className="laptop:flex hidden desktopS:gap-[50px] laptop:gap-[30px] tablet:text-[18px] mobile:text-[16px] text-[14px] font-semibold ml-auto">
               <div className="">HOME</div>
               <div className="">ABOUT</div>
               <div className="">SERVICES</div>
