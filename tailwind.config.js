@@ -8,7 +8,7 @@ module.exports = {
       'tablet': '768px',
       'laptop': '1024px',
       'desktopS': '1300px',
-      'desktop': '1452px'
+      'desktop': '1470px'
     },
     extend: {
       backgroundImage: {
