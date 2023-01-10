@@ -7,7 +7,7 @@ const Navbar = () => {
     <div>
       <div className="flex justify-center relative top-[50px] mobile:mx-[30px] mx-[20px]">
         <div className="w-[1400px] flex justify-center mobile:gap-[50px] gap-[30px]">
-          <img src="./Assets/logo.png" alt="" className="h-[67px] mobile:w-[242px] w-[200px]"/>
+          <img src="./Assets/logo.png" alt="" className="h-[67px]"/>
           <div className="ml-auto flex items-center">
             <Navigation/>
             <MobileNavigation/>

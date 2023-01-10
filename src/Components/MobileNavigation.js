@@ -9,7 +9,7 @@ const MobileNavigation = () => {
     <IoIosMenu
       size="40px"
       onClick={() => setOpen(!open)}
-      style={{ position: "absolute", right: "5%", cursor: "pointer" }}
+      style={{ cursor: "pointer" }}
     />
   );
 
