@@ -3,7 +3,7 @@ import React from "react";
 const LineDesign = () => {
   return (
     <div>
-      <div className="w-full relative tablet:top-[294px] mobile:top-[297px] top-[300px]">
+      <div className="w-full relative tablet:top-[294px] mobile:top-[237px] top-[180px]">
         <div className="flex tablet:h-[26px] mobile:h-[23px] h-[20px]">
           <div className="w-[40%]"></div>
           <div className="w-[20%]"></div>

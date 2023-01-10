@@ -1,11 +1,18 @@
 import React from "react";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init({ duration:2000 })
+  })
+
   return (
     <div>
-      <div className="flex justify-center bg-background3 bg-cov py-24 mobile:px-[30px] px-[20px]">
+      <div id="contact" className="flex justify-center bg-background3 bg-cov py-24 mobile:px-[30px] px-[20px]">
         <div className="w-[1400px] flex gap-[70px] flex-wrap justify-center items-center">
-          <div className="text-[white] max-w-[665px] min-w-min z-10">
+          <div data-aos="zoom-in" className="text-[white] max-w-[665px] min-w-min z-10">
             <h1 className="tablet:text-[70px] mobile:text-[55px] text-[40px] tablet:leading-[65px] mobile:leading-[50px] leading-[40px] font-bold mb-5">
               READY TO ELEVATE YOUR BRAND?
             </h1>
@@ -34,7 +41,7 @@ const Contact = () => {
               className="w-full h-[140px] py-5 px-6 focus:outline-none rounded-[30px]"
               placeholder="Message"
             />
-            <button className="bg-[#41C6D5] w-[200px] rounded-[30px] text-[white] tablet:text-[18px] mobile:text-[16px] text-[14px] px-[40px] py-[15px]">
+            <button className="bg-[#41C6D5] w-[200px] hover:opacity-80 duration-100 rounded-[30px] text-[white] tablet:text-[18px] mobile:text-[16px] text-[14px] px-[40px] py-[15px]">
               SUBMIT
             </button>
           </div>

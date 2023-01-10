@@ -1,18 +1,16 @@
 import React from "react";
+import MobileNavigation from "./MobileNavigation";
+import Navigation from "./Navigation";
 
 const Navbar = () => {
   return (
     <div>
       <div className="flex justify-center relative top-[50px] mobile:mx-[30px] mx-[20px]">
-        <div className="w-[1400px] flex justify-center gap-[50px] items-center">
-          <img src="./Assets/logo.png" alt="" />
-          <div className="laptop:flex desktopS:gap-[50px] laptop:gap-[30px] hidden tablet:text-[18px] mobile:text-[16px] text-[14px] font-semibold ml-auto">
-            <div className="">HOME</div>
-            <div className="">ABOUT</div>
-            <div className="">SERVICES</div>
-            <div className="">PORTFOLIO</div>
-            <div className="">TESTIMONIAL</div>
-            <div className="">CONTACT</div>
+        <div className="w-[1400px] flex justify-center mobile:gap-[50px] gap-[30px]">
+          <img src="./Assets/logo.png" alt="" className="h-[67px] mobile:w-[242px] w-[200px]"/>
+          <div className="ml-auto flex items-center">
+            <Navigation/>
+            <MobileNavigation/>
           </div>
         </div>
       </div>
