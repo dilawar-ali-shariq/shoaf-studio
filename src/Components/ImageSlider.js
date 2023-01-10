@@ -69,7 +69,7 @@ const ImageSlider = ({ slides }) => {
                     )}
                     {index === current && (
                       <img
-                        data-aos="slide-right"
+                        data-aos="fade-right"
                         src={slide.logo}
                         alt=""
                         className="ml-auto tablet:w-[210px] mobile:w-[180px] w-[160px]"
